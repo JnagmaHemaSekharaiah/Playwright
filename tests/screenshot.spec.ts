@@ -7,8 +7,9 @@ test("Screenshot",async ({page}) =>
      
 
     const timestamp = Date.now();
+    const path ="";
 
-    await page.screenshot({path:"screenshot/"+"homepage"+timestamp+".png"});
+    await page.screenshot({path:"screenshot/"+"fullpage"+timestamp+".png", fullPage:true});
 
 
 
